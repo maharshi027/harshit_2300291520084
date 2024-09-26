@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit's Resume</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #89f7fe, #66a6ff);
+            color: #444;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .profile-card {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 700px;
+            padding: 20px;
+            text-align: center;
+            overflow: hidden;
+            transform: scale(1);
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .profile-card:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #66a6ff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #89f7fe;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: #66a6ff;
+            margin: 30px 0;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        table caption {
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            color: #555;
+        }
+
+        th {
+            background-color: #66a6ff;
+            color: #fff;
+        }
+
+        /* Hover effect on table rows */
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .profile-card {
+                width: 100%;
+                padding: 15px;
+            }
+
+            img {
+                width: 90px;
+                height: 90px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            table th, table td {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <h1>Harshit</h1>
+        <img src="harshit.jpg" alt="Harshit">
+        <p><b>Email:</b> harshkush15sep@gmail.com</p>
+        <p><b>Phone:</b> 7398464400</p>
+        <p><b>LinkedIn:</b><a href="https://www.instagram.com/maharshi.027?igsh=eWZrMjk1MGJuand3" target="_blank"> My Instagram profile</a></p>
+
+        <hr>
+
+        <h2>Objective</h2>
+        <p>Brief student about your career goals and aspirations.</p>
+
+        <hr>
+
+        <h2>Education</h2>
+        <div class="container">
+            <table>
+                <caption>Qualification</caption>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Highschool</td>
+                        <td>SSN Mahoba</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>Intermediate</td>
+                        <td>SSN Mahoba</td>
+                        <td>2021</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
